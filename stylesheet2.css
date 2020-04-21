@@ -1,4 +1,8 @@
-
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 body {background-image: url(https://wallpaperaccess.com/full/84248.png);
 background-size: cover;}
 
@@ -9,3 +13,17 @@ background-size: cover;}
 .btn-light:hover{
 	background-color: #9370DB;
 }
+
+p{color: white;
+}
+
+img{width: 450px;
+ 	height: 450px;
+ 	margin: 10px;
+ 	transition: all 1s;
+ }
+
+ img:hover{
+ 	transform: scale(1.2);
+ 	transform: translate(30px, 30px);
+ }
