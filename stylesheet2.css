@@ -1,0 +1,11 @@
+
+body {background-image: url(https://wallpaperaccess.com/full/84248.png);
+background-size: cover;}
+
+.btn-light{background-color: #B0C4DE;
+
+}
+
+.btn-light:hover{
+	background-color: #9370DB;
+}
